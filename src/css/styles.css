@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
+header .flex-column img {
+  width: 5%;
+}
+header .pricing-header img {
+  width: 20%;
+}
+header span {
+  font-family: 'Inconsolata', monospace;
+}
+body {
+  background-color: #161616;
+}
+.back {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: auto;
+  min-height: 700px;
+  max-height: 1000px;
+  background-image: url('../img/menu2.png');
+}
+div h1, div p {
+  font-size: 75px;
+  font-family: 'Inconsolata', monospace;
+}
+div h1 {
+  font-weight: bolder;
+}
+nav {
+  font-weight: bold;
+}
+.pricing-header a {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+main {
+  margin-top: 20px;
+}
+.shapes {
+  text-align: center;
+  background-image: url('../img/shapes.webp');
+  background-repeat: no-repeat;
+  margin-top: 40px;
+  color: #0095ff;
+  background-position-x: center;
+  height: 100px;
+  padding-top: 25px;
+}
+header span {
+  margin-left: 15px;
+}
+article {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+h3 {
+  display: inline;
+}
+.row img {margin-top: -5px;}
+h4 {margin-top: 10px; line-height:normal; font-size: large;}
+.col, .col-5 {
+  padding: 50px;
+  color: white;
+}
+.col a img, .col-5 a img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.cards h3 {
+  color: #0095ff;
+  display: block;
+}
+.cards img {
+  width: 35%;
+  vertical-align: middle;
+  float: right;
+}
+.cards .bl {
+  width: 60%;
+  display: inline-block;
+  margin-left: 5px;
+}
+.cards .col {
+  background: #1d1d1d;
+  margin: 20px;
+  height: 356px;
+  border-radius: 10px;
+}
+.backg {
+  text-align: center;
+  margin-top: 190px;
+  height: 473px;
+  color: white;
+}
+.fone {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+}
+.backg h3 {
+  font-size: 1.45rem;
+  font-weight: unset;
+  display: block;
+}
+@media screen and (max-width: 1100px) {
+    .back {
+      min-height: 600px;
+      max-height: 700px;
+    }
+    .cards .col {
+        height: auto;
+    }
+    .ph {
+        display: none;
+    }
+}
