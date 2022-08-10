@@ -93,8 +93,8 @@ h4 {margin-top: 10px; line-height:normal; font-size: large;}
 }
 .backg {
   text-align: center;
-  margin-top: 190px;
-  height: 473px;
+  margin-top: 250px;
+  height: 250px;
   color: white;
 }
 .fone {
@@ -113,15 +113,71 @@ h4 {margin-top: 10px; line-height:normal; font-size: large;}
   font-weight: unset;
   display: block;
 }
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  max-width: 25%;
+  border-radius: 7px;
+  background-color: #a7dafe;
+  padding-top: 7px;
+  display: inline-block;
+}
+
+.avatar img {
+  width: 100%;
+  margin-left: 5px;
+  margin-top: -3px;
+}
+.text {
+  float: right;
+  display: inline-block;
+  width: 75%;
+  padding-left: 15px;
+  padding-top: 0;
+}
+.text h4 {
+  font-size: unset;
+  font-weight: normal;
+}
+.reviews .col {
+  background: #1d1d1d;
+  margin: 30px;
+  border-radius: 10px;
+  max-width: 500px;
+}
+
+.reviews .row {
+  margin-left: 60px;
+}
+
+
 @media screen and (max-width: 700px) {
     .back {
       min-height: 600px;
       max-height: 700px;
     }
     .cards .col {
-        height: auto;
+      height: auto;
     }
     .ph {
-        display: none;
+      display: none;
+    }
+    .reviews .row {
+      margin-left: 0;
+    }
+    .avatar {
+      width: auto;
+      height: auto;
+      padding-top: 0;
+    }
+    .avatar img {
+      margin-left: 2px;
+      margin-top: 0;
+    }
+    .text {
+      float: none;
+      padding-left: 5px;
+      width: auto;
     }
 }
